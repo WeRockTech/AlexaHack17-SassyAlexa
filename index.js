@@ -23,7 +23,7 @@ var sassy_data = [
   "Not today Satan, not today!",
   "Your clothes looks like a donkey fucked a piñata and threw up.",
   "By the looks of you dear, you're going through the change of life.",
-  "You are so full of shit, the toilet is jealous.",
+  "You are so full of shite, the toilet is jealous.",
   "You are shadier than a palm tree.",
   "I don't get cute. I get drop dead gorgeous.",
   "Ain't nobody got time for that.",
@@ -40,8 +40,7 @@ var sassy_data = [
   "Bitches get stuff done.",
   "Don’t get bitter, just get better.",
   "The secret of getting ahead is getting started.",
-  "Always remember you’re unique, just like everyone else.",
-
+  "Always remember you’re unique, just like everyone else."
 ]
 
 //=========================================================================================================================================
