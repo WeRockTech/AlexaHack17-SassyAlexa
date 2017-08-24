@@ -10,7 +10,7 @@ const APP_ID = process.env.AMAZON_ID;  // TODO replace with your app ID (OPTIONA
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 
-var SKILL_NAME = "Sassy Alexa";
+var SKILL_NAME = "Sassy Bot";
 var GET_SASSY_MESSAGE = "Here's your random sass: ";
 var HELP_MESSAGE = "You can ask me to be sassy, or, you can say exit... What can I help you with love?";
 var HELP_REPROMPT = "What can I help you with my dear?";
@@ -49,9 +49,9 @@ var sassy_data = [
 
 var handlers = {
     'LaunchRequest': function () {
-        this.emit('GetNewSassyAlexaIntent');
+        this.emit('GetNewSassyBotIntent');
     },
-    'GetNewSassyAlexaIntent': function () {
+    'GetNewSassyBotIntent': function () {
         var factArr = sassy_data;
         var factIndex = Math.floor(Math.random() * factArr.length);
         var randomSass = factArr[factIndex];
